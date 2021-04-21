@@ -17,6 +17,8 @@ Office.onReady(info => {
 // finish tomorrow morning
 function addSign(){
   var sign = document.querySelector('[name="email"]').value;
+    if (sign === "")
+      return;
   var ul = document.getElementById("myList");
   var li = document.createElement("li");
   li.appendChild(document.createTextNode(sign));
@@ -31,4 +33,4 @@ function function1() {
   var li = document.createElement("li");
   li.appendChild(document.createTextNode("newEmail"));
   ul.appendChild(li);
-}
+}git 
