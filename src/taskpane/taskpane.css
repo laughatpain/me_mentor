@@ -94,3 +94,15 @@
 b {
     font-weight: bold;
 }
+ /* Style the close button */
+ .close {
+  position: relative;
+  right: 0;
+  top: 0;
+  padding: 2px 4px 2px 4px;
+}
+
+.close:hover {
+  background-color: rgb(183, 70, 187);
+  color: white;
+}
