@@ -22,13 +22,13 @@ Office.onReady(info => {
       span.appendChild(txt);
       myNodelist[i].appendChild(span);
     }
-    // payas and me need to start  with
+    
     // Click on a close button to hide the current list item
     addCloseEvent();
    
   }
 });
-// finish tomorrow morning
+// func add sig
 function addSign(){
   var sign = document.querySelector('[name="email"]').value;
     if (sign === "")
@@ -44,6 +44,7 @@ function addSign(){
   span.appendChild(txt);
   li.appendChild(span);
   addCloseEvent();
+  document.querySelector('[name="email"]').value ="";
 }
 
 //function add closeevent
