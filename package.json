@@ -26,13 +26,13 @@
     "office-addin-sso": "^3.0.7"
   },
   "devDependencies": {
-    "@babel/core": "^7.10.2",
+    "@babel/core": "^8.0.1",
     "@babel/polyfill": "^7.10.1",
-    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-env": "^8.0.2",
     "@types/jquery": "^3.3.31",
     "@types/office-js": "^1.0.91",
     "@types/office-runtime": "^1.0.13",
-    "babel-loader": "^8.1.0",
+    "babel-loader": "^10.1.1",
     "clean-webpack-plugin": "^3.0.0",
     "concurrently": "^5.2.0",
     "copy-webpack-plugin": "^14.0.0",
